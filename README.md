@@ -21,7 +21,6 @@ $ ./train
 
 # Expected output
 ```bash
-== MNIST training with CUDNN ==
 [TRAIN]
 loading ./dataset/train-images-idx3-ubyte
 loaded 60000 items..
@@ -34,26 +33,38 @@ CUDA: dense1
 CUDA: relu
 CUDA: dense2
 CUDA: softmax
+conv1: Available Algorithm Count [FWD]: 10
+conv1: Available Algorithm Count [BWD-filter]: 9
+conv1: Available Algorithm Count [BWD-data]: 8
 .. initialized conv1 layer ..
+conv2: Available Algorithm Count [FWD]: 10
+conv2: Available Algorithm Count [BWD-filter]: 9
+conv2: Available Algorithm Count [BWD-data]: 8
 .. initialized conv2 layer ..
 .. initialized dense1 layer ..
 .. initialized dense2 layer ..
-step:  200, loss: 0.561, acc: 75.762%
-step:  400, loss: 2.754, acc: 96.574%
-step:  600, loss: 0.157, acc: 97.004%
-step:  800, loss: 0.005, acc: 97.006%
-step: 1000, loss: 0.178, acc: 97.016%
-step: 1200, loss: 0.014, acc: 96.998%
-step: 1400, loss: 0.854, acc: 96.998%
-step: 1600, loss: 0.165, acc: 96.984%
-step: 1800, loss: 0.051, acc: 97.006%
-step: 2000, loss: 0.284, acc: 97.025%
-step: 2200, loss: 0.002, acc: 96.996%
-step: 2400, loss: 0.013, acc: 96.990%
+step:  200, loss: 0.348, acc: 72.475%
+step:  400, loss: 0.278, acc: 90.805%
+step:  600, loss: 0.167, acc: 92.857%
+step:  800, loss: 0.220, acc: 93.934%
+step: 1000, loss: 0.170, acc: 94.688%
+step: 1200, loss: 0.128, acc: 95.287%
+step: 1400, loss: 0.172, acc: 95.744%
+step: 1600, loss: 0.118, acc: 96.131%
+step: 1800, loss: 0.165, acc: 96.367%
+step: 2000, loss: 0.095, acc: 96.637%
+step: 2200, loss: 0.088, acc: 96.818%
+step: 2400, loss: 0.090, acc: 96.945%
 [INFERENCE]
 loading ./dataset/t10k-images-idx3-ubyte
 loaded 10000 items..
-loss: 3.165, acc: 85.500%
+conv1: Available Algorithm Count [FWD]: 10
+conv1: Available Algorithm Count [BWD-filter]: 9
+conv1: Available Algorithm Count [BWD-data]: 8
+conv2: Available Algorithm Count [FWD]: 10
+conv2: Available Algorithm Count [BWD-filter]: 9
+conv2: Available Algorithm Count [BWD-data]: 8
+loss: 0.006, acc: 97.250%
 Done.
 ```
 

@@ -1,11 +1,14 @@
-# cuda-for-deep-learning
+# cucnn and cublas for neural networks
 Simplistic test on CuDNN and CuBLAS for a simple neural net (LeNET?) training using MNIST dataset.
 
 # Disclaimer
 
 nvcc - cuda_12.4.r12.4/compiler.33961263_0
+
 gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+
 The code was tested on CuDNN9.5
+
 Previous version than 8.0 are not longer supported.
 
 # How to use

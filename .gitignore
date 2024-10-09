@@ -1,7 +1,11 @@
 # Prerequisites
+dataset/
 *.d
 
+.vscode/
 # Compiled Object files
+train
+convolution
 *.slo
 *.lo
 *.o

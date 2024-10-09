@@ -1,4 +1,4 @@
-# cucnn and cublas for neural networks
+# cudnn and cublas for neural networks
 Simplistic test on CuDNN and CuBLAS for a simple neural net (LeNET?) training using MNIST dataset.
 
 # Disclaimer

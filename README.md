@@ -67,6 +67,3 @@ conv2: Available Algorithm Count [BWD-data]: 8
 loss: 0.006, acc: 97.250%
 Done.
 ```
-
-
-All these features requires re-compilation
